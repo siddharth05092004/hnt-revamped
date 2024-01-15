@@ -18,10 +18,6 @@ function Home() {
       thumbnail: "assets/images/home_page_carousel/kandi.png",
     },
     {
-      original: "assets/images/home_page_carousel/khanahr.png",
-      thumbnail: "assets/images/home_page_carousel/khanahr.png",
-    },
-    {
       original: "assets/images/home_page_carousel/survival.jpg",
       thumbnail: "assets/images/home_page_carousel/survival.jpg",
     },
