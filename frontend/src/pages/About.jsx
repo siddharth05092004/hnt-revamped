@@ -37,10 +37,6 @@ function About() {
               beautiful places on earth. Places like Prashar, Rewalsar, Kamand,
               Manikaran etc. are ideal for hiking. Nature truly signifies its
               beauty in these set of mountains where our institute is situated.
-              With the Director himself having keen interest in hiking, the club
-              arranges trips on regular basis for its members to various places.
-              The Hiking and Trekking Club is the single largest club at IIT
-              Mandi.
             </p>
             <ul className="font-light list-image-[url(/assets/icons/checkmark.svg)] m-5">
               <li className="text-lg">Camping and Adventure</li>
@@ -123,7 +119,7 @@ function About() {
             You will also get to see a variety of flora and fauna, and butterflies along the way. On your way to and back, you can also visit the quaint village Kamand and its scenic dam."
             author="Nidhika Kadela"
             article_url="https://www.facebook.com/hntiitmandi/"
-            article_text="Coordinator - HnT Club"
+            article_text="Former Coordinator (2018-20)"
           />
         </Carousel>
       </div>

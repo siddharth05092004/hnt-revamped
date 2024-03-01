@@ -17,12 +17,21 @@ export default {
     "./src/pages/About.jsx",
     "./src/components/VideoCard.jsx",
     "./src/components/BlogCard.jsx",
-    "./src/components/NewsCard.jsx"
+    "./src/components/NewsCard.jsx",
+    "./src/components/Manage.jsx",
+    ".src/pages/SiteData.alumni.jsx",
+    ".src/pages/SiteData.blog.jsx",
+    ".src/pages/SiteData.team.jsx",
+    ".src/components/blog_manage_card.jsx",
+    ".src/components/profile_manage_card.jsx",
+    ".src/components/profile_add_card.jsx"
+
   ],
   theme: {
     extend: {
       invert: {
-        75: '.75'
+        75: '.75',
+        25: '.25',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',

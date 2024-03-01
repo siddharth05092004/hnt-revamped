@@ -1,68 +1,17 @@
 import { useState, useEffect } from "react";
 
 function Header(props) {
-  // const [page,setPage] = useState('Home');
-
-  // const Home = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('Home');
-  //     const html_ele_home = document.getElementById("HomeTxt");
-  //     html_ele_home.classList.add("text-red-400");
-
-  //   }
-
-  //   const About = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('About');
-  //     const html_ele_home = document.getElementById("AboutTxt");
-  //     html_ele_home.classList.add("text-red-400");
-  //   }
-
-  //   const Blog = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('Blog');
-  //     const html_ele_home = document.getElementById("BlogTxt");
-  //     html_ele_home.classList.add("text-red-400");
-  //   }
-
-  //   const Team = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('Team');
-  //     const html_ele_home = document.getElementById("TeamTxt");
-  //     html_ele_home.classList.add("text-red-400");
-  //   }
-
-  //   const Alumni = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('Alumni');
-  //     const html_ele_home = document.getElementById("AlumniTxt");
-  //     html_ele_home.classList.add("text-red-400");
-  //   }
-  //   const Contact = ()=>{
-  //     console.log(page+"Txt")
-  //     const prev_ele = document.getElementById(page+"Txt")
-  //     prev_ele.classList.remove("text-red-400")
-  //     setPage('Contact');
-  //     const html_ele_home = document.getElementById("ContactTxt");
-  //     html_ele_home.classList.add("text-red-400");
-  //   }
+  
 
   useEffect(() => {
-    console.log(props.selected + "Txt");
-    const ele = document.getElementsByClassName(props.selected + "Txt");
-
-    ele[0].classList.add("text-red-400");
-    ele[1].classList.add("text-red-400");
+    
+    if(props.selected!="None"){
+      const ele = document.getElementsByClassName(props.selected + "Txt");
+      ele[0].classList.add("text-red-400");
+      ele[1].classList.add("text-red-400");}
+    else{
+      const logo = document.getElementById("HnT Logo").src = "../../assets/logo.png";
+    }
   }, []);
 
   const toggleMenu = () => {
@@ -83,8 +32,8 @@ function Header(props) {
   return (
     <>
       <nav className="justify-between bg-gray-800 grid grid-cols-1 md:flex md:justify-around">
-        <div className="m-3">
-          <img src="assets/logo.png" alt="HnT Logo" className="h-10 md:h-20" />
+        <div className="m-3 hover:cursor-pointer">
+          <a href = '/'><img src="assets/logo.png" id="HnT Logo" className="h-10 md:h-20" /></a>
         </div>
 
         <div id="Menu" className="items-center justify-center hidden md:flex">
