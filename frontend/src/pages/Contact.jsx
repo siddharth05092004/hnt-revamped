@@ -7,6 +7,7 @@ function Contact() {
         <VideoCard
           video_url="assets/0-dess_mountain.mp4"
           page_name="CONTACT US"
+          photo_url="assets/images/load_videocard/dess_mountain.png"
         />
       </div>
 

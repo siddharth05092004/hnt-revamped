@@ -37,6 +37,7 @@ function Home() {
         <VideoCard
           video_url="assets/0-kandi_drone.mp4"
           page_name="NEVER STOP EXPLORING"
+          photo_url="assets/images/load_videocard/kandi_drone.png"
         />
       </div>
       <motion.div

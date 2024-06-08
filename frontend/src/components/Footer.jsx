@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="relative font-sans grid p-14 gap-10 grid-cols-1 md:grid-cols-3 text-gray-300 bg-stone-800 md:grid-col-3">
+      <div className="font-sans grid p-14 gap-10 grid-cols-1 md:grid-cols-3 text-gray-300 bg-stone-800 md:grid-col-3">
         <div>
           <p className="text-2xl text-gray-100">About HnT IIT Mandi</p>
           <p className="text-md pt-6">
@@ -29,7 +29,7 @@ function Footer() {
             <a className="text-md pt-3 font-light cursor-pointer duration-300 hover:text-gray-100 hover:duration-300" href="mailto:hnt@students.iitmandi.ac.in">hnt@students.iitmandi.ac.in</a>
         </div>
         <div className="col-span-1 md:col-span-3 flex justify-center items-center"><p>This site is revamped by <a href = "https://github.com/siddharth05092004" className="text-gray-300 duration-300 hover:text-gray-100 hover:duration-300">Siddharth Amlavad</a></p></div>
-        <div className="absolute bottom-10 right-10"><a href="/api/manage/team">Site Data</a></div>
+        
       </div>
       
     </>

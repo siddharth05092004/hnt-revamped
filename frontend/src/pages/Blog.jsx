@@ -32,6 +32,7 @@ function Blog() {
         <VideoCard
           video_url="assets/0-dess_mountain.mp4"
           page_name="BLOG POSTS"
+          photo_url="assets/images/load_videocard/dess_mountain.png"
         />
       </div>
       <div className="m-10 flex justify-center">

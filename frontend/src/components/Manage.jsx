@@ -13,7 +13,7 @@ function Manage(props) {
     <>
     <div className="my-10 flex justify-center items-center">
       <div className=" inline-flex rounded-md shadow-sm" role="group">
-        <a href="/api/manage/team">
+        <a href="/manage-team">
           <button
           id = "team_button"
             type="button"
@@ -22,7 +22,7 @@ function Manage(props) {
             Team
           </button>
         </a>
-        <a href="/api/manage/alumni">
+        <a href="/manage-alumni">
           <button
           id = "alumni_button"
             type="button"
@@ -31,7 +31,7 @@ function Manage(props) {
             Alumni
           </button>
         </a>
-        <a href="/api/manage/blog">
+        <a href="/manage-blog">
           <button
             id = "blog_button"
             type="button"

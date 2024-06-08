@@ -16,28 +16,7 @@ import SiteDataBlog from './pages/SiteData.blog.jsx'
 
 
 function App() {
-    // useEffect(()=>{
-    //   async function fetchData(){
-    //     const team_response = await fetch(import.meta.env.VITE_API_URI+"team")
-    //     const alumni_response = await fetch(import.meta.env.VITE_API_URI+"alumni")
-    //     const blog_response = await fetch(import.meta.env.VITE_API_URI+"blog")
-    //     var team_data = await team_response.json()
-    //     var blog_data = await blog_response.json()
-    //     var alumni_data = await alumni_response.json()
-    //     .finally(()=>{
-    //         const loader = document.getElementById("preloader");
-    //         loader.classList.add("hidden");
-    //     })
-    //     .catch(()=>{
-    //         console.log("Error in fetching data!")
-    //     })
-
-
-    //     console.log(team_data);
-    // }
-    // fetchData();
-    // },[]);
-
+    
 
   return (
     <>
@@ -50,9 +29,9 @@ function App() {
         <Route path = "/team" element = {<><Header selected = "Team"/> <Team/><Footer/></>}/> 
         <Route path = "/alumni" element = {<><Header selected = "Alumni"/> <Alumni/><Footer/></>}/> 
         <Route path = "/contact" element = {<><Header selected = "Contact"/> <Contact/><Footer/></>}/> 
-        <Route path = "/api/manage/team" element = {<><Header selected = "None"/> <Manage selected = "team"/><SiteDataTeam/></>}/> 
-        <Route path = "/api/manage/alumni" element = {<><Header selected = "None"/><Manage selected = "alumni"/> <SiteDataAlumni/></>}/> 
-        <Route path = "/api/manage/blog" element = {<><Header selected = "None"/><Manage selected = "blog"/> <SiteDataBlog/></>}/> 
+        <Route path = "/manage-team" element = {<><Header selected = "None"/> <Manage selected = "team"/><SiteDataTeam/></>}/> 
+        <Route path = "/manage-alumni" element = {<><Header selected = "None"/><Manage selected = "alumni"/> <SiteDataAlumni/></>}/> 
+        <Route path = "/manage-blog" element = {<><Header selected = "None"/><Manage selected = "blog"/> <SiteDataBlog/></>}/> 
       
       </Routes>
     

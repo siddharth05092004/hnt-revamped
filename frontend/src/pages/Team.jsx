@@ -31,7 +31,7 @@ function Team() {
   return (
     <>
       <div className=" w-full">
-        <VideoCard video_url="assets/0-kandi_drone.mp4" page_name="OUR TEAM" />
+        <VideoCard video_url="assets/0-kandi_drone.mp4" page_name="OUR TEAM" photo_url="assets/images/load_videocard/kandi_drone.png"/>
       </div>
       <div className="flex justify-center m-10 lg:ml-32 lg:mr-32">
         <div className="flex flex-wrap justify-center gap-12 w-screen">

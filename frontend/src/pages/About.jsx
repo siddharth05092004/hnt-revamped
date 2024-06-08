@@ -10,6 +10,7 @@ function About() {
         <VideoCard
           video_url="assets/0-mountain_clouds.mp4"
           page_name="ABOUT US"
+          photo_url="assets/images/load_videocaard/mountain_cloud.png"
         />
       </div>
 

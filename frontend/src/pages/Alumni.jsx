@@ -33,6 +33,7 @@ function Alumni() {
         <VideoCard
           video_url="assets/0-mountain_clouds.mp4"
           page_name="ALUMNI"
+          photo_url="assets/images/load_videocard/mountain_cloud.png"
         />
       </div>
 

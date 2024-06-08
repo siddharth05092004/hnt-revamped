@@ -4,7 +4,7 @@ const router =require("./src/routes/router.js")
 const cors = require('cors')
 require('dotenv').config();
 const corsOptions = {
-    origin: process.env.ALLOWED_ORIGIN,
+    origin: "*",
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,

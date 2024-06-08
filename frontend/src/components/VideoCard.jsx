@@ -19,7 +19,7 @@ function VideoCard(props) {
                 
             </div> */}
 
-      <div className="relative bg-slate-500">
+      <div className="relative bg-slate-500" style={{backgroundImage:`url('${props.photo_url}')`}}>
         <video
           id="vid"
           className="w-full  transition-opacity ease-in duration-500 opacity-0"
